@@ -41,6 +41,7 @@ void iniciar_simulacion(void) {
                 printf("\n--- MODIFICACION DE PARAMETROS ---\n");
                 orion.masa = leer_doble_positivo("Ingrese nueva masa [kg] (> 0): ");
                 orion.velocidad = leer_doble_no_negativo("Ingrese nueva velocidad [m/s] (>= 0): ");
+                printf("  [OK] Parametros actualizados con exito.\n");
                 break;
             case 3:
                 printf("\nSaliendo del simulador...\n");
